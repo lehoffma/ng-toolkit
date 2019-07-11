@@ -3,7 +3,7 @@ import { MenuComponent } from './menu.component';
 import { By } from '@angular/platform-browser';
 import * as sinon from 'sinon';
 import { DebugElement, Directive, HostListener, Input } from '@angular/core';
-import { MatMenuModule } from '@angular/material';
+import { MatMenuModule } from '@angular/material/menu';
 import { WindowRef } from '../window-ref.service';
 import { Notifications } from '../services/notifications.service';
 import { Subject, BehaviorSubject, of } from 'rxjs';

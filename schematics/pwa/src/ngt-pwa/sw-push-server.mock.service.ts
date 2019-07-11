@@ -1,4 +1,4 @@
-import { Observable } from 'rxjs';
+import {Observable} from "rxjs";
 
 export class SwPushServerMock {
     public messages: Observable<object>;

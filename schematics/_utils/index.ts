@@ -489,7 +489,7 @@ export function updateNgToolkitInfo(tree: Tree, newSettings: any) {
 
 export function applyAndLog(rule: Rule): Rule {
     return (tree: Tree, context: SchematicContext) => {
-        return (<Observable<Tree>> rule(tree, context))
+        return (<any> rule(tree, context))
         .pipe(catchError((error: any) => {
             let subject: Subject<Tree> = new Subject();
             console.log(`\u001B[31mERROR: \u001b[0m${error.message}`);

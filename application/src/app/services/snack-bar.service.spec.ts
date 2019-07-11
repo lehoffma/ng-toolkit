@@ -1,5 +1,5 @@
 import { async, inject, TestBed } from '@angular/core/testing';
-import { MatSnackBar, MatSnackBarRef } from '@angular/material';
+import { MatSnackBar, MatSnackBarRef } from '@angular/material/snack-bar';
 import * as sinon from 'sinon';
 import { SnackBarNotification, SnackBar } from './snack-bar.service';
 import { of, Subject } from 'rxjs';
